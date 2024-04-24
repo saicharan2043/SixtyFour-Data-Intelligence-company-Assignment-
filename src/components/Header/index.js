@@ -4,6 +4,14 @@ import { IoNotificationsOutline } from "react-icons/io5";
 import LibraryCard from "../LibraryCard";
 import "./index.css";
 
+const LabraryDetails = [
+  { id: 1, title: "My Saved Library 1", date: "21-07-2022" },
+  { id: 2, title: "My Saved Library 2", date: "25-04-2016" },
+  { id: 3, title: "My Saved Library 3", date: "15-02-2015" },
+  { id: 4, title: "My Saved Library 4", date: "25-05-2012" },
+  { id: 5, title: "My Saved Library 5", date: "28-08-2020" },
+];
+
 const Header = () => {
   return (
     <div className="header-container">
@@ -25,10 +33,9 @@ const Header = () => {
         </div>
       </div>
       <ul className="ul-list-labrary">
-        <LibraryCard />
-        <LibraryCard />
-        <LibraryCard />
-        <LibraryCard />
+        {LabraryDetails.map((eachValue) => (
+          <LibraryCard labraryValues={eachValue} key={eachValue.id} />
+        ))}
       </ul>
     </div>
   );

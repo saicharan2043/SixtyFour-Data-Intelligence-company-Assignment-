@@ -7,8 +7,14 @@
   justify-content: space-between;
   padding: 10px;
   background-color: #ffffff;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  box-shadow: rgba(200, 202, 204, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: 0.5s;
+}
+
+.Expand-width {
+  width: 10%;
+  transition: 0.5s;
 }
 
 .logo-and-tab-container {
@@ -34,7 +40,6 @@
 .list-of-icons {
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-bottom: 25px;
   list-style: none;
@@ -51,13 +56,21 @@
   font-size: 18px;
   color: gray;
   margin-left: 10px;
+  display: none;
+}
+
+.show-text {
+  display: block;
+}
+
+.center-icons {
+  justify-content: center;
 }
 
 .settings-container {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 /* .settings-icon{

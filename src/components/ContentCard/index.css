@@ -1,0 +1,37 @@
+.slide-container {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.content-card {
+  height: 350px;
+  max-width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.img-of-card {
+  width: 100%;
+  height: 60%;
+  margin-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.title-of-card {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  color: #333633;
+  margin: 15px 10px;
+}
+
+.description-of-card {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: gray;
+  margin: 0px 10px;
+}
