@@ -1,0 +1,67 @@
+.sidebar-container {
+  height: 100vh;
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.logo-and-tab-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 50px;
+  border-radius: 100%;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.list-of-icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.icon-of-tab {
+  width: 22px;
+  height: 22px;
+  color: gray;
+}
+
+.text-of-icon {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.settings-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .settings-icon{
+    width: 20px;
+    height: 20px;
+    color: gray;
+} */

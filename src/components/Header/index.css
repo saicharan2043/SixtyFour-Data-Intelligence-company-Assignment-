@@ -1,0 +1,72 @@
+.header-container {
+  background-color: #11132e;
+  height: 180px;
+  width: 100%;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.greeting-and-date-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.gretting-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-of-gretting-container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.discription-of-greeting {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: #c3c7c7;
+}
+
+.date-container {
+  display: flex;
+  align-items: center;
+}
+
+.icons-of-date-and-time {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.text-of-date-container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+.icon-of-notification {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  margin-left: 40px;
+}
+
+.ul-list-labrary {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  position: absolute;
+  bottom: -120px;
+  overflow: auto;
+}
+
+.ul-list-labrary::-webkit-scrollbar {
+  display: none;
+}
